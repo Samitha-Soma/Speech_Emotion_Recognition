@@ -10,9 +10,14 @@ The model is trained using emotional speech data from two sources:
 
 RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
 TESS (Toronto Emotional Speech Set)
-How It Works
+**How It Works**
 Real-Time Audio Analysis: The system takes live audio input through a microphone.
-Emotion Detection: The audio is analyzed in short cycles, and the model identifies the emotions present in each segment.
-Automatic Stop: If the system detects 2 seconds of silence, it stops automatically.
-Results
+
+**Emotion Detection:** The audio is analyzed in short cycles, and the model identifies the emotions present in each segment.
+
+**Automatic Stop:** If the system detects 2 seconds of silence, it stops automatically.
+
+
+
+**Conclusion**--->
 The system achieves an 87% accuracy in recognizing emotions from speech. The noise reduction and QA enhancements ensure reliable analysis, even in challenging scenarios.
